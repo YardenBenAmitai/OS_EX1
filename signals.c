@@ -31,7 +31,7 @@ int main() {
 		}
 	}
 	
-	sleep(1);
+	sleep(3);
 	
 	kill(pid_list[4], SIGINT);
 	for (int i=0; i<5; i++){
